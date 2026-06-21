@@ -78,6 +78,16 @@ The service accepted the signature and returned:
 slopped{quadratic_capsules_unlock_the_attestor}
 ```
 
+The final-stage solver is included at:
+
+```text
+reverse/audit-spiral/solve.py
+```
+
+It uses the recovered private key, asks the live service for a fresh target
+digest, signs that digest locally with a small pure-Python secp256k1
+implementation, and submits the resulting admin signature.
+
 ## Takeaways
 
 The challenge rewarded observing nonce behavior over time rather than only inspecting one signature. Once the VM output was fixed, the quadratic nonce progression became the exploitable structure.
