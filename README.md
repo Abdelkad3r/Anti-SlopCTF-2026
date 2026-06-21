@@ -10,6 +10,7 @@ The writeups focus on the reasoning path, the vulnerability or core trick, and t
 | --- | --- | --- |
 | [Observers Are All You Need](osint/observers-are-all-you-need.md) | OSINT | `slopped{OPH_is_a_rec0nstructi0n_pr0gram_f0r_funD4mentaL_phys1cs}` |
 | [Geoguessr](osint/geoguessr.md) | OSINT | `slopped{h0w_d0_agent5_sl0p_nmpz?}` |
+| [Slipstream Cache](web/slipstream-cache.md) | Web / Cryptography | `slopped{split_parsers_make_signed_packages_liable}` |
 | [Baby Maths](misc/baby-maths.md) | Misc | `slopped{http://178.105.199.41:23333}` |
 | [Polynomial Drift](crypto/polynomial-drift.md) | Cryptography | `slopped{polyphase_masks_force_a_hidden_number_pivot}` |
 | [Audit Spiral](reverse/audit-spiral.md) | Reverse | `slopped{quadratic_capsules_unlock_the_attestor}` |
