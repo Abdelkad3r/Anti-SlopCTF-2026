@@ -7,6 +7,22 @@
 ## Handout
 
 - [`polydrift`](./polydrift) — Linux x86-64 PIE ELF (~473 KiB), stripped. The Rust TCP service binary distributed for the challenge. SHA1 BuildID `26738268efd95276473e549b78d75bc385bfa3b8`.
+- [`solve.py`](./solve.py) — reproduces the capsule signature collection, HNP/CVP key recovery, and final `auth` signature.
+
+## Solver
+
+The solver needs `fpylll` for the lattice/CVP step:
+
+```bash
+python3 -m pip install fpylll cysignals
+python3 solve.py --capture /tmp/polydrift_commit.json
+```
+
+To replay only the final auth step with the recovered key:
+
+```bash
+python3 solve.py --private-key 0xb94052b8ca127bc32e757e49dc37abcc55d0333186ef7e4dd96973439e8da570
+```
 
 
 ## Overview
