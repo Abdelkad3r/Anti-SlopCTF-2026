@@ -1,0 +1,8 @@
+services:
+  sloppedrider:
+    build: .
+    ports:
+      - "${HOST_PORT:-3000}:3000"
+    environment:
+      FLAG: "${FLAG:-slopped_REDACTED_REMOTE_FLAG}"
+    restart: unless-stopped

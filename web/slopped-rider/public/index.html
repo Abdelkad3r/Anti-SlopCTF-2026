@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SloppedRider - Ride any charity chart</title>
+    <meta name="description" content="Motocross meets donor dashboards. Ride any charity chart." />
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <main id="app">
+      <nav class="nav">
+        <div class="brand"><span>Slopped</span>Rider</div>
+        <a href="#leaderboard" id="leaderboard-link">Leaderboard</a>
+      </nav>
+
+      <section class="hero">
+        <div class="overline">motocross meets donor dashboards</div>
+        <h1>Ride any charity chart.</h1>
+        <form class="search" id="ticker-form">
+          <select id="ticker-select" aria-label="Ticker"></select>
+          <button type="submit">Load track</button>
+        </form>
+        <p class="hint">Daily charity target: <strong>676,767</strong> points. Public physics tops out around 5,000.</p>
+      </section>
+
+      <section class="daily">
+        <div>
+          <div class="label">today's campaign</div>
+          <div id="daily-symbol">Loading...</div>
+          <p>Generated terrain from market-style time series. Backflips add flair; verified score tickets keep the board clean.</p>
+        </div>
+        <button id="ride-daily">Ride</button>
+      </section>
+
+      <section class="panel" id="track-panel">
+        <div class="track-head">
+          <div>
+            <div class="label">selected track</div>
+            <h2 id="track-title">Choose a ticker</h2>
+          </div>
+          <div id="cap-pill">cap -</div>
+        </div>
+        <canvas id="track" width="1040" height="320"></canvas>
+        <div class="controls">
+          <button id="simulate">Start ride</button>
+          <button id="submit-score">Submit score</button>
+          <input id="nick" maxlength="24" placeholder="nickname" />
+        </div>
+        <div id="ride-stats" class="stats">No ride yet.</div>
+        <div class="subtle">Controls: W/Up throttle, S/Down brake, Space jump, A/D or Left/Right rotate. Land upside down and you crash.</div>
+      </section>
+
+      <section class="panel">
+        <div class="track-head">
+          <div>
+            <div class="label">charity chart preview</div>
+            <h2>Import a donor feed</h2>
+          </div>
+        </div>
+        <form class="importer" id="preview-form">
+          <input id="preview-url" placeholder="https://example.org/campaign-chart.json" />
+          <button type="submit">Preview</button>
+        </form>
+        <p class="subtle">Feeds are JSON: symbol, name, prices[]. The previewer runs server-side so slow donor APIs work from browsers.</p>
+      </section>
+
+      <section class="panel" id="leaderboard">
+        <div class="track-head">
+          <div>
+            <div class="label">global board</div>
+            <h2>Top riders</h2>
+          </div>
+          <div class="target">target 676,767</div>
+        </div>
+        <div id="board"></div>
+      </section>
+    </main>
+    <script src="/assets/app.js" defer></script>
+  </body>
+</html>
