@@ -12,7 +12,7 @@ The writeups focus on the reasoning path, the vulnerability or core trick, and t
 | [Geoguessr](osint/geoguessr.md) | OSINT | `slopped{h0w_d0_agent5_sl0p_nmpz?}` |
 | [Slipstream Cache](web/slipstream-cache/README.md) | Web | `slopped{split_parsers_make_signed_packages_liable}` |
 | [Baby Maths](misc/baby-maths.md) | Misc | `slopped{http://178.105.199.41:23333}` |
-| [Polynomial Drift](crypto/polynomial-drift.md) | Cryptography | `slopped{polyphase_masks_force_a_hidden_number_pivot}` |
+| [Polynomial Drift](crypto/polynomial-drift/README.md) | Cryptography | `slopped{polyphase_masks_force_a_hidden_number_pivot}` |
 | [Sealed Signal](crypto/sealed-signal/README.md) | Cryptography | `slopped{cbc_mac_capsule_splice_last_claim_wins}` |
 | [Audit Spiral](reverse/audit-spiral.md) | Reverse | `slopped{quadratic_capsules_unlock_the_attestor}` |
 | [Anchorpoint](pwn/anchorpoint.md) | Pwn | `slopped{shadow_quote_ghash_rootcapsule}` |

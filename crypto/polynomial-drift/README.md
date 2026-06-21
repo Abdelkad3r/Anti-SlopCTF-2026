@@ -4,6 +4,11 @@
 **Points:** 443  
 **Flag:** `slopped{polyphase_masks_force_a_hidden_number_pivot}`
 
+## Handout
+
+- [`polydrift`](./polydrift) — Linux x86-64 PIE ELF (~473 KiB), stripped. The Rust TCP service binary distributed for the challenge. SHA1 BuildID `26738268efd95276473e549b78d75bc385bfa3b8`.
+
+
 ## Overview
 
 Polynomial Drift exposed a Rust TCP service built around a small capsule VM. A valid capsule could be committed repeatedly, and each commit produced an ECDSA signature over secp256k1.
