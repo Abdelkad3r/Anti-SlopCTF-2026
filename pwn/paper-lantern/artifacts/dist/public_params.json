@@ -1,0 +1,13 @@
+{
+  "scheme": "crt-rsa-fdh",
+  "n": "70a80f885c9cab9c3a4b068b58ee1913d472f2f750c2023ff0b00426f70b1e5d91535a03f66410614806025ed7cc2c2ff904d8aa516612cbe936bd05a90a3159",
+  "e": 65537,
+  "signature_size": 64,
+  "trace_max_read": 24,
+  "audit_window": 192,
+  "trace_render_offset": 112,
+  "replay_buf": 72,
+  "comment_braid_min": 17,
+  "comment_braid_max": 32,
+  "decoy_table": 8
+}

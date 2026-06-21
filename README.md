@@ -16,9 +16,9 @@ The writeups focus on the reasoning path, the vulnerability or core trick, and t
 | [Sealed Signal](crypto/sealed-signal/README.md) | Cryptography | `slopped{cbc_mac_capsule_splice_last_claim_wins}` |
 | [Audit Spiral](reverse/audit-spiral/README.md) | Reverse | `slopped{quadratic_capsules_unlock_the_attestor}` |
 | [Parallax Cartridge](reverse/parallax-cartridge/README.md) | Reverse | `slopped{quiet_tracks_hide_in_hash_padded_resume_tapes}` |
-| [Anchorpoint](pwn/anchorpoint.md) | Pwn | `slopped{shadow_quote_ghash_rootcapsule}` |
-| [Paper Lantern](pwn/paper-lantern.md) | Pwn | `slopped{faulted_crt_seams_burn_open}` |
-| [Graceful Exit](pwn/graceful-exit.md) | Pwn | `slopped{previewed_offsets_can_reseal_reports}` |
+| [Anchorpoint](pwn/anchorpoint/README.md) | Pwn | `slopped{shadow_quote_ghash_rootcapsule}` |
+| [Paper Lantern](pwn/paper-lantern/README.md) | Pwn | `slopped{faulted_crt_seams_burn_open}` |
+| [Graceful Exit](pwn/graceful-exit/README.md) | Pwn | `slopped{previewed_offsets_can_reseal_reports}` |
 | [Finality Cache](blockchain/finality-cache.md) | Blockchain | `slopped{wrapped_lane_offsets_expose_seal_keys_then_sign_recursive_checkpoints}` |
 | [Canopy Cache](blockchain/canopy-cache.md) | Blockchain | `slopped{packbits_lookup_routes_rethread_the_owner_lane}` |
 | [SloppedRider](web/slopped-rider/README.md) | Web | `slopped{riding_0n_M3?}` |
