@@ -1,6 +1,7 @@
 # SloppedRider
 
 **Category:** Web  
+**Handout:** `SloppedRider-dist.zip` — full server source (`server.js`, `public/`, `Dockerfile`, `docker-compose.yml`)  
 **Flag:** `slopped{riding_0n_M3?}`
 
 ## Overview
