@@ -15,6 +15,7 @@ The writeups focus on the reasoning path, the vulnerability or core trick, and t
 | [Polynomial Drift](crypto/polynomial-drift/README.md) | Cryptography | `slopped{polyphase_masks_force_a_hidden_number_pivot}` |
 | [Sealed Signal](crypto/sealed-signal/README.md) | Cryptography | `slopped{cbc_mac_capsule_splice_last_claim_wins}` |
 | [Audit Spiral](reverse/audit-spiral/README.md) | Reverse | `slopped{quadratic_capsules_unlock_the_attestor}` |
+| [Parallax Cartridge](reverse/parallax-cartridge/README.md) | Reverse | `slopped{quiet_tracks_hide_in_hash_padded_resume_tapes}` |
 | [Anchorpoint](pwn/anchorpoint.md) | Pwn | `slopped{shadow_quote_ghash_rootcapsule}` |
 | [Paper Lantern](pwn/paper-lantern.md) | Pwn | `slopped{faulted_crt_seams_burn_open}` |
 | [Graceful Exit](pwn/graceful-exit.md) | Pwn | `slopped{previewed_offsets_can_reseal_reports}` |
