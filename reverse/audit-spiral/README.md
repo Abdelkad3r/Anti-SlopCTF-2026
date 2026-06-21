@@ -4,6 +4,11 @@
 **Points:** 500  
 **Flag:** `slopped{quadratic_capsules_unlock_the_attestor}`
 
+## Handout
+
+- [`auditvm`](./auditvm) — Linux x86-64 PIE ELF (~27 KiB), stripped. The VM runner distributed for the challenge; the remote wraps it with a secp256k1 signing interface. SHA1 BuildID `2a77f8573617426c5a53ba63e20db266322f7b34`.
+
+
 ## Overview
 
 Audit Spiral shipped as a Linux x86_64 VM runner, but the remote service wrapped that VM with a secp256k1 signing interface:
