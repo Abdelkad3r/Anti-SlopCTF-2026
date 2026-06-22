@@ -1,0 +1,7 @@
+Baby Maths
+100 questions. One answer per line.
+Answer carefully.
+
+Question 1/100
+Please compute (98 + 10) // 7.
+>
