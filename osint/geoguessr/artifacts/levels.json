@@ -1,0 +1,10 @@
+{
+  "main": {
+    "t": 3,
+    "mem": 8192,
+    "resolution": 8,
+    "threshold": 9,
+    "iv": "2ecb85b520a575e5d5d5fa02de8f7976",
+    "ciphertext": "e3e7eda7515d8f6739e0f65c55fd7669c11fff4bb062c26213112d17c3e2cdb148c16197553df09440afddd3f34c84cd5703c4cd05a45d97347275dd29826a62"
+  }
+}

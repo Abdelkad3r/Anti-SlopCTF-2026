@@ -8,8 +8,8 @@ The writeups focus on the reasoning path, the vulnerability or core trick, and t
 
 | Challenge | Category | Flag |
 | --- | --- | --- |
-| [Observers Are All You Need](osint/observers-are-all-you-need.md) | OSINT | `slopped{OPH_is_a_rec0nstructi0n_pr0gram_f0r_funD4mentaL_phys1cs}` |
-| [Geoguessr](osint/geoguessr.md) | OSINT | `slopped{h0w_d0_agent5_sl0p_nmpz?}` |
+| [Observers Are All You Need](osint/observers-are-all-you-need/README.md) | OSINT | `slopped{OPH_is_a_rec0nstructi0n_pr0gram_f0r_funD4mentaL_phys1cs}` |
+| [Geoguessr](osint/geoguessr/README.md) | OSINT | `slopped{h0w_d0_agent5_sl0p_nmpz?}` |
 | [Slipstream Cache](web/slipstream-cache/README.md) | Web | `slopped{split_parsers_make_signed_packages_liable}` |
 | [Baby Maths](misc/baby-maths.md) | Misc | `slopped{http://178.105.199.41:23333}` |
 | [Polynomial Drift](crypto/polynomial-drift/README.md) | Cryptography | `slopped{polyphase_masks_force_a_hidden_number_pivot}` |
