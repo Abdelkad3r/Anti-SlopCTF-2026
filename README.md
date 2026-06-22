@@ -19,8 +19,8 @@ The writeups focus on the reasoning path, the vulnerability or core trick, and t
 | [Anchorpoint](pwn/anchorpoint/README.md) | Pwn | `slopped{shadow_quote_ghash_rootcapsule}` |
 | [Paper Lantern](pwn/paper-lantern/README.md) | Pwn | `slopped{faulted_crt_seams_burn_open}` |
 | [Graceful Exit](pwn/graceful-exit/README.md) | Pwn | `slopped{previewed_offsets_can_reseal_reports}` |
-| [Finality Cache](blockchain/finality-cache.md) | Blockchain | `slopped{wrapped_lane_offsets_expose_seal_keys_then_sign_recursive_checkpoints}` |
-| [Canopy Cache](blockchain/canopy-cache.md) | Blockchain | `slopped{packbits_lookup_routes_rethread_the_owner_lane}` |
+| [Finality Cache](blockchain/finality-cache/README.md) | Blockchain | `slopped{wrapped_lane_offsets_expose_seal_keys_then_sign_recursive_checkpoints}` |
+| [Canopy Cache](blockchain/canopy-cache/README.md) | Blockchain | `slopped{packbits_lookup_routes_rethread_the_owner_lane}` |
 | [SloppedRider](web/slopped-rider/README.md) | Web | `slopped{riding_0n_M3?}` |
 
 ## Notes
